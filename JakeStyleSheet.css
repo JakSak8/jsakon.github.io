@@ -1,0 +1,166 @@
+body {
+	background-image: url("http://cdn.wallpapersafari.com/51/0/jwTGxo.jpg");
+
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-height: 1000px;
+
+	margin: 0;
+
+	font-family: Gloria Hallelujah;
+}
+
+.title h1 {
+	font-family: "Gloria Hallelujah";
+	color: white;
+	text-align: center;
+	font-size: 125;
+	top: 600px
+	width: 100%;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 200 20 0 20;
+}
+
+
+#developer h2 {
+	font-family: "Gloria Hallelujah";
+	color: white;
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-style: none;
+	overflow: hidden;
+	/*background-color: #333;*/
+	z-index: 1;
+	width: 100%;
+}
+
+.options li {
+	float: left;
+	width: 250px;
+	overflow: hidden;
+}
+
+.options li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 16px;
+	text-decoration: none;
+	font-family: "Gloria Hallelujah";
+	font-size: 30px;
+	margin: 0;
+}
+
+.options li a:hover {
+	background-color: #111;
+}
+
+.social li {
+	float: right;
+}
+
+.social li a {
+	display: block;
+	padding: 10px 10px;
+}
+
+.dropdown {
+	display: none;
+}
+
+/* Contacts Page */
+
+#contact {
+	font-size: 175%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-top: 17%;
+}
+
+/* About Page */
+.paragraph p {
+	color: white;
+	text-align: center;
+	font-size: 120%;
+	margin-top: 10%;
+	width: 50%;
+	margin-left: 25%;
+}
+
+/* Phone StyleSheet */
+@media only screen and (max-device-width: 425px) {
+
+	.navbar {
+		display: none;
+	}
+
+	#main h1 {
+		font-size: 450%;
+		margin-top: 20%;
+	}
+
+	#developer h2 {
+		font-size: 250%;
+	}
+
+	.dropbtn {
+		font-family: Gloria Hallelujah;
+		text-decoration: none;
+		color: white;
+		padding: 2px;
+		font-size: 25px;
+		width: 100%;
+		border: none;
+		cursor: pointer;
+		background-color: #111;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+		background-color: lightgrey;
+	}
+
+	.dropdown {
+		width: 100%;
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #111;
+		min-width: 160px;
+		z-index: 1;
+		width: 100%;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.dropdown-content a {
+		color: white;
+		display: block;
+		font-family: Gloria Hallelujah;
+		width: 100%;
+	}
+
+	.show {
+		display: block;
+	}
+	
+
+
+}
+	
